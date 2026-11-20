@@ -63,6 +63,9 @@ NEXT_PUBLIC_DEMO_MODE=false
 FIREBASE_SERVICE_ACCOUNT_JSON=<base64 encoded service account JSON>
 ```
 
+Rotate any previously exposed server-side secret before deployment. Restrict the
+Firebase web API key by authorized domains and enabled APIs in Google Cloud.
+
 6. Click **Deploy**
 
 ### Option B: CLI Deploy
