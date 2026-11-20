@@ -53,9 +53,9 @@ The SmogShield AI application does not have a live production deployment URL. Al
 NEXT_PUBLIC_FIREBASE_API_KEY=<Firebase web API key>
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=<project>.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=<Firebase project ID>
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=<Firebase project ID>.firebasestorage.app
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=<Firebase storage bucket>
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=<Firebase sender ID>
-NEXT_PUBLIC_FIREBASE_APP_ID=1:<Firebase sender ID>:web:2b8cce908b660935a0da9a
+NEXT_PUBLIC_FIREBASE_APP_ID=<Firebase app ID>
 GEMINI_API_KEY=<get from https://aistudio.google.com/apikey>
 CRON_SECRET=<generate with: openssl rand -hex 32>
 NEXT_PUBLIC_APP_URL=https://<your-vercel-domain>.vercel.app
