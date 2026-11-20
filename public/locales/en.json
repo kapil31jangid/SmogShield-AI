@@ -1,0 +1,253 @@
+{
+  "app": {
+    "name": "SmogShield AI",
+    "tagline": "Breathe Smarter. Protect Your Family.",
+    "description": "Your personalized air quality companion for healthier living in polluted cities."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "profiles": "Family Profiles",
+    "assistant": "AI Assistant",
+    "planner": "Low-Emission Planner",
+    "impact": "Impact Tracker",
+    "challenges": "Community Challenges",
+    "settings": "Settings"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "yes": "Yes",
+    "no": "No",
+    "optional": "Optional",
+    "required": "Required",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh",
+    "lastUpdated": "Last updated",
+    "now": "Just now",
+    "minutesAgo": "{{count}}m ago",
+    "hoursAgo": "{{count}}h ago",
+    "daysAgo": "{{count}}d ago"
+  },
+  "dashboard": {
+    "title": "Air Quality Dashboard",
+    "subtitle": "Real-time pollution data and personalized recommendations",
+    "step1": {
+      "title": "Select Your City",
+      "description": "Choose your location to receive real-time air quality readings and tailored protection advice."
+    },
+    "currentAQI": "Current AQI",
+    "location": "Location",
+    "pollutants": "Pollutants",
+    "pm25": "PM2.5",
+    "pm10": "PM10",
+    "no2": "NO₂",
+    "o3": "O₃",
+    "so2": "SO₂",
+    "co": "CO",
+    "recommendations": "Today's Recommendations",
+    "familyExposure": "Family Exposure Summary",
+    "indoorProtection": "Indoor Protection",
+    "aiAssistant": "AI Assistant",
+    "impactProgress": "Your Impact",
+    "dataFreshness": {
+      "live": "Live",
+      "cached": "Cached",
+      "stale": "Stale",
+      "demo": "Demo Data"
+    },
+    "aqiCategories": {
+      "good": "Good",
+      "moderate": "Moderate",
+      "unhealthySensitive": "Unhealthy for Sensitive Groups",
+      "unhealthy": "Unhealthy",
+      "veryUnhealthy": "Very Unhealthy",
+      "hazardous": "Hazardous"
+    }
+  },
+  "profiles": {
+    "title": "Family Profiles",
+    "subtitle": "Manage household members for personalized recommendations",
+    "addProfile": "Add Family Member",
+    "editProfile": "Edit Profile",
+    "deleteProfile": "Delete Profile",
+    "name": "Name",
+    "category": "Category",
+    "categories": {
+      "child": "Child",
+      "adult": "Adult",
+      "older_adult": "Older Adult"
+    },
+    "conditions": "Health Conditions",
+    "conditionsPlaceholder": "e.g., asthma, allergies, heart condition",
+    "outdoorFrequency": "Outdoor Activity",
+    "outdoorFrequencies": {
+      "low": "Low (rarely outside)",
+      "medium": "Moderate (1-2 hours/day)",
+      "high": "High (3+ hours/day)"
+    },
+    "commutePattern": "Commute Pattern",
+    "commutePatterns": {
+      "walk": "Walk",
+      "cycle": "Cycle",
+      "public_transport": "Public Transport",
+      "car": "Car (Solo)",
+      "mixed": "Mixed"
+    },
+    "hasAirPurifier": "Has Air Purifier",
+    "purifierCADR": "Purifier CADR (m³/h)",
+    "roomSizeSqFt": "Room Size (sq ft)",
+    "preferredLanguage": "Preferred Language",
+    "languages": {
+      "en": "English",
+      "hi": "Hindi"
+    },
+    "noProfiles": "No family members added yet",
+    "addFirstProfile": "Add your first family member to get personalized recommendations"
+  },
+  "assistant": {
+    "title": "SmogShield Assistant",
+    "subtitle": "Ask about air quality, health, and protection",
+    "placeholder": "Ask me about air quality, indoor protection, travel options...",
+    "send": "Send",
+    "thinking": "Thinking...",
+    "error": "Failed to get response. Please try again.",
+    "suggestions": [
+      "What's the current AQI?",
+      "How to choose an air purifier?",
+      "When should I ventilate my home?",
+      "Best travel options for today?",
+      "Generate today's action plan",
+      "Explain PM2.5 vs PM10"
+    ],
+    "disclaimer": "AI responses are for informational purposes only. Not medical advice. Consult a healthcare professional for health concerns."
+  },
+  "planner": {
+    "title": "Low-Emission Planner",
+    "subtitle": "Find cleaner travel alternatives and reduce your footprint",
+    "currentCommute": "Your Current Commute",
+    "alternatives": "Cleaner Alternatives",
+    "co2eSaved": "CO₂e Saved",
+    "perTrip": "per trip",
+    "perYear": "per year",
+    "feasibility": {
+      "easy": "Easy to adopt",
+      "moderate": "Moderate effort",
+      "hard": "Significant change"
+    },
+    "combineErrands": "Combine Errands",
+    "tripsPerWeek": "Trips per week",
+    "combinedTrips": "Combined trips",
+    "calculateSavings": "Calculate Savings",
+    "aqiConstraint": "AQI Consideration"
+  },
+  "impact": {
+    "title": "Impact Tracker",
+    "subtitle": "Track your low-emission actions and estimated savings",
+    "totalActions": "Total Actions",
+    "totalCO2e": "Total CO₂e Saved",
+    "addAction": "Log Action",
+    "actionTypes": {
+      "carpool": "Carpool Trip",
+      "public_transport": "Public Transport",
+      "walk_cycle": "Walk/Cycle",
+      "avoided_trip": "Avoided Trip",
+      "source_reduction": "Indoor Source Reduction",
+      "community_event": "Community Event"
+    },
+    "description": "Description",
+    "descriptionPlaceholder": "e.g., Carpooled to work with colleague",
+    "weeklyTrend": "Weekly Trend",
+    "monthlyTrend": "Monthly Trend",
+    "equivalencies": "What This Means",
+    "assumptions": "Assumptions & Limitations",
+    "limitations": [
+      "Individual actions have negligible direct impact on ambient AQI",
+      "Estimates based on averages, not your specific situation",
+      "Upstream emissions not included",
+      "Behavioral rebound effects not modeled"
+    ]
+  },
+  "challenges": {
+    "title": "Community Challenges",
+    "subtitle": "Join collective clean-air actions",
+    "active": "Active Challenges",
+    "completed": "Completed",
+    "join": "Join Challenge",
+    "participants": "Participants",
+    "target": "Target",
+    "progress": "Progress",
+    "endsIn": "Ends in",
+    "days": "days",
+    "yourParticipation": "Your Participation",
+    "notJoined": "Not joined yet",
+    "joined": "Joined",
+    "completeAction": "Complete Action"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your preferences and privacy",
+    "language": "Language",
+    "notifications": "Notifications",
+    "emailAlerts": "Email Alerts",
+    "pushNotifications": "Push Notifications",
+    "dailyBriefing": "Daily AQI Briefing",
+    "pollutionAlerts": "High Pollution Alerts",
+    "challengeUpdates": "Challenge Updates",
+    "privacy": "Privacy",
+    "dataCollection": "Data Collection",
+    "analytics": "Analytics",
+    "deleteAccount": "Delete Account",
+    "dangerZone": "Danger Zone"
+  },
+  "onboarding": {
+    "welcome": "Welcome to SmogShield AI",
+    "tagline": "Breathe Smarter. Protect Your Family.",
+    "step1": {
+      "title": "Choose Your Location",
+      "description": "Select your city for localized air quality data"
+    },
+    "step2": {
+      "title": "Add Family Members",
+      "description": "Create profiles for personalized recommendations"
+    },
+    "step3": {
+      "title": "Enable Notifications",
+      "description": "Get daily briefings and pollution alerts"
+    },
+    "getStarted": "Get Started",
+    "skip": "Skip for now",
+    "demoMode": "Try with Demo Data"
+  },
+  "errors": {
+    "unauthorized": "Please sign in to continue",
+    "forbidden": "You don't have permission to access this",
+    "notFound": "Not found",
+    "serverError": "Server error. Please try again later.",
+    "networkError": "Network error. Check your connection.",
+    "validationError": "Please check your input",
+    "rateLimited": "Too many requests. Please wait.",
+    "aiUnavailable": "AI assistant is currently unavailable. Showing fallback response."
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "aqiChart": "AQI trend chart",
+    "pollutantChart": "Pollutant levels chart",
+    "impactChart": "Impact trend chart"
+  }
+}
